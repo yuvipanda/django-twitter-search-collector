@@ -1,0 +1,7 @@
+django-twitter-search-collector ChangeLog
+
+### Version 0.1, 13 February 2010:
+
+* Started as part of first [24Camp][1]
+* Collector collects all tweets matching search term specified in settings.py
+* User model is filled by extra information obtained by calling Twitter API

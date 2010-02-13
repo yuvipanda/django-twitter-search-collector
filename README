@@ -1,0 +1,8 @@
+Django Twitter Search Collector
+
+Application for constant, behind the scenes collection of Tweets from Twitter Search.
+
+Provides:
+ * collector.py - Run as cronjob to do actual collection
+ * models.py - Tweet, User and Tag models used by collector.py. Inherit to add your own fields. Note that User information is augmented by calling the Twitter API, so you get much more than the sparse info provided by Twitter Search API.
+ 
