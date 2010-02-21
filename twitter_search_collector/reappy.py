@@ -13,7 +13,7 @@ except ImportError:
 USER_AGENT = "reappy application/0.1"
 hashtag_regex = re.compile(r"(?:[^&]|^)#([a-z0-9_\-]+)")
 
-from twitter_collector.models import _LastRetrieved
+from twitter_search_collector.models import _LastRetrieved
 
 class User:
     def __init__(self, data):

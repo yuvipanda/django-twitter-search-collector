@@ -8,7 +8,7 @@ from django.core.management import setup_environ
 
 from django.conf import settings
 from reappy import SearchApplication
-from twitter_collector.models import Tweet, User, Tag
+from twitter_search_collector.models import Tweet, User, Tag
 
 twitter_api = twitter.Api()
 
